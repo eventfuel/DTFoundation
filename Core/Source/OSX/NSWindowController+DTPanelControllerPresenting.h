@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Cocoanetics. All rights reserved.
 //
 
-#if TARGET_OS_OSX
+#if TARGET_OS_OSX && !TARGET_OS_MACCATALYST
 #import <AppKit/AppKit.h>
 
 /**
